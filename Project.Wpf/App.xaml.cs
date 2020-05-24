@@ -5,7 +5,7 @@ using Project.Wpf.ViewModels;
 
 namespace Project.Wpf
 {
-    public partial class App : Application
+    internal partial class App : Application
     {
         public App()
         {

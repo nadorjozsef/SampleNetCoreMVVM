@@ -3,7 +3,7 @@ using Project.Wpf.ViewModels;
 
 namespace Project.Wpf.Common
 {
-    internal class ViewModelLocator
+    internal sealed class ViewModelLocator
     {
         public ViewModelLocator()
         { }
