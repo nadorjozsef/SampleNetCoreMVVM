@@ -1,12 +1,10 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
 using System.Windows;
-using WpfApp1.ViewModels;
+using Project.Wpf.Common;
+using Project.Wpf.ViewModels;
 
-namespace WpfApp1
+namespace Project.Wpf
 {
-    /// <summary>
-    /// Interaction logic for App.xaml
-    /// </summary>
     public partial class App : Application
     {
         public App()

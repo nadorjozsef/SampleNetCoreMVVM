@@ -1,10 +1,9 @@
-﻿<Window x:Class="WpfApp1.Views.MainWindow"
+﻿<Window x:Class="Project.Wpf.Views.MainWindow"
+        x:ClassModifier="internal"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:WpfApp1"
-        xmlns:viewModels="clr-namespace:WpfApp1.ViewModels"
         mc:Ignorable="d"
         Title="MainWindow"
         Height="450"
@@ -13,7 +12,8 @@
 
     <Grid>
         <StackPanel>
-            <Button Content="{Binding Message}" />
+            <Button Content="{Binding Message}"
+                    Command="{Binding ChangeNameCommand}"/>
         </StackPanel>
     </Grid>
 </Window>

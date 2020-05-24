@@ -1,9 +1,9 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
-using WpfApp1.ViewModels;
+using Project.Wpf.ViewModels;
 
-namespace WpfApp1
+namespace Project.Wpf.Common
 {
-    public class ViewModelLocator
+    internal class ViewModelLocator
     {
         public ViewModelLocator()
         { }

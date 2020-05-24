@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace WpfApp1
+namespace Project.Wpf.Common
 {
     public static class Services
     {
@@ -11,5 +11,4 @@ namespace WpfApp1
 
         public static IServiceProvider ServiceProvider { get; private set; }
     }
-
 }

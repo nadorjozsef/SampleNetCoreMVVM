@@ -1,9 +1,9 @@
-﻿<Application x:Class="WpfApp1.App"
+﻿<Application x:Class="Project.App"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             xmlns:local="clr-namespace:WpfApp1"
+             xmlns:common="clr-namespace:Project.Wpf.Common"
              StartupUri="Views/MainWindow.xaml">
     <Application.Resources>
-        <local:ViewModelLocator x:Key="ViewModelLocator"/>
+        <common:ViewModelLocator x:Key="ViewModelLocator"/>
     </Application.Resources>
 </Application>
